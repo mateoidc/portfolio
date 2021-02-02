@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Major Mono Display", monospace;
+  font-size: 40px;
+  margin-left: 10px;
+  color: #ff0a54;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  flex-direction: column;
+}
+
+.home-page-button {
+  font-family: "Major Mono Display", monospace;
+  background-color: black;
+  color: #ff0a54;
+  font-size: 25px;
+  font-weight: bolder;
+  border: 0;
+  padding: 16px;
+  margin-top: 50px;
+}
+
+.home-page-button:hover {
+  background-color: #ff0a54;
+  color: black;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home-page-button {
+    margin-left: -85px;
+  }
+}
+/* Bigger Screens  */
+
+@media only screen and (min-width: 3000px) {
+  .home-page-button {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  .landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    flex-direction: column;
+    margin: 800px;
+  }
+}

@@ -1,0 +1,177 @@
+.take-a-look {
+  font-family: "Major Mono Display", monospace;
+  color: #ff0a54;
+  text-align: center;
+  font-size: 40px;
+  margin: 35px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Buttons */
+
+.github1,
+.live1 {
+  background-color: #ff0a54;
+  padding: 10px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.github1:hover {
+  background-color: rgba(0, 0, 0, 0.477);
+}
+
+.live1:hover {
+  background-color: rgba(0, 0, 0, 0.477);
+}
+
+/* On Hover */
+
+#wrapper .button-wrapper {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -50%;
+  background-color: rgba(0, 0, 0, 0.902);
+  background-size: cover;
+  width: 200px;
+  right: -400px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#wrapper:hover .button-wrapper {
+  visibility: visible;
+}
+
+/* First Proejct */
+.hero-image1 {
+  background-image: url(/src/assets/project1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 480px;
+  border-radius: 20px;
+  margin: 10px;
+  font-family: "Major Mono Display", monospace;
+  font-size: 40px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.hero-image1:hover {
+  opacity: 0.8;
+}
+
+.hero-image1:hover .middle1 {
+  opacity: 1;
+}
+
+/* Second Project */
+.hero-image2 {
+  background-image: url(/src/assets/project2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 480px;
+  border-radius: 20px;
+  margin: 10px;
+  font-size: 40px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.hero-image2:hover {
+  opacity: 0.8;
+}
+
+.hero-image2:hover .middle1 {
+  opacity: 1;
+}
+/* third project */
+.hero-image3 {
+  background-image: url(/src/assets/project3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 480px;
+  border-radius: 20px;
+  margin: 10px;
+  font-family: "Major Mono Display", monospace;
+  font-size: 40px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.hero-image3:hover {
+  opacity: 0.8;
+}
+
+.hero-image3:hover .middle1 {
+  opacity: 1;
+}
+/* Fourth project */
+.hero-image4 {
+  background-image: url(/src/assets/project4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 480px;
+  border-radius: 20px;
+  margin: 10px;
+  font-family: "Major Mono Display", monospace;
+  font-size: 40px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.hero-image4:hover {
+  opacity: 0.8;
+}
+
+.hero-image4:hover .middle1 {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-wrapper {
+    left: 65px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-image1 {
+    width: 350px;
+    height: 350px;
+  }
+  .hero-image2 {
+    width: 350px;
+    height: 350px;
+    background-position: bottom;
+  }
+  .hero-image3 {
+    width: 350px;
+    height: 350px;
+    background-position: bottom;
+  }
+  .hero-image4 {
+    width: 350px;
+    height: 350px;
+    background-position: bottom;
+  }
+}
