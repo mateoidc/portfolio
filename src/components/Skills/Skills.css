@@ -1,0 +1,73 @@
+.skills-h4 {
+  text-align: center;
+  font-family: "Major Mono Display", monospace;
+  font-size: 50px;
+  color: black;
+  padding: 70px;
+}
+
+.skill-pics {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.skill1 {
+  background-image: url("/src/assets/trio.png");
+  width: 400px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skill2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png");
+  width: 350px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skill3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png");
+  width: 300px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skill4 {
+  background-image: url("http://pngimg.com/uploads/github/github_PNG40.png");
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.skill5 {
+  background-image: url("https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png");
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: -5px;
+}
+
+.skill6 {
+  background-image: url("https://pngimg.com/uploads/mysql/mysql_PNG1.png");
+  height: 200px;
+  width: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: -5px;
+  margin: -30px;
+}
+
+.yes {
+  background-color: rgba(32, 31, 31, 0.046);
+}
