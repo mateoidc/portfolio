@@ -32,7 +32,7 @@ class Projects extends React.Component {
             </div>
           </div>
           <div className="project-names">
-            <span class="dot"></span> Ecommerce Project<span class="dot"></span>
+            <span class="dot"></span> Ecommerce APP<span class="dot"></span>
           </div>
           <div id="wrapper">
             <div className="hero-image3">
@@ -68,7 +68,7 @@ class Projects extends React.Component {
             </div>
           </div>
           <div className="project-names">
-            <span class="dot"></span> Covid API tracker<span class="dot"></span>
+            <span class="dot"></span> Covid tracker<span class="dot"></span>
           </div>
           <div id="wrapper">
             <div className="hero-image4">
