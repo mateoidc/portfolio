@@ -148,6 +148,17 @@
   opacity: 1;
 }
 
+/* Project Names */
+
+.project-names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Major Mono Display", monospace;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
 @media only screen and (max-width: 600px) {
   .button-wrapper {
     left: 65px;

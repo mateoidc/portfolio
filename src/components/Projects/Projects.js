@@ -18,37 +18,74 @@ class Projects extends React.Component {
           <div id="wrapper">
             <div className="hero-image1">
               <div className="button-wrapper">
-                <button className="github1">Github</button>
-                <button className="live1">Live </button>
+                <a
+                  target="_blank"
+                  href="https://github.com/mateoidc/ecommerce-react"
+                >
+                  <button className="github1">Github</button>
+                </a>
+
+                <a target="_blank" href="https://stayandvacay.netlify.app/">
+                  <button className="github1">Live</button>
+                </a>
               </div>
             </div>
           </div>
-
-          <div id="wrapper">
-            <div className="hero-image2">
-              <div className="button-wrapper">
-                <button className="github1">Github</button>
-                <button className="live1">Live </button>
-              </div>
-            </div>
+          <div className="project-names">
+            <span class="dot"></span> Ecommerce Project<span class="dot"></span>
           </div>
-
-          <div id="wrapper">
-            <div className="hero-image4">
-              <div className="button-wrapper">
-                <button className="github1">Github</button>
-                <button className="live1">Live </button>
-              </div>
-            </div>
-          </div>
-
           <div id="wrapper">
             <div className="hero-image3">
               <div className="button-wrapper">
-                <button className="github1">Github</button>
-                <button className="live1">Live </button>
+                <a
+                  target="_blank"
+                  href="https://github.com/mateoidc/weather-app
+                  "
+                >
+                  <button className="github1">Github</button>
+                </a>
+
+                <a target="_blank" href="https://mateosweather.netlify.app/">
+                  <button className="github1">Live</button>
+                </a>
               </div>
             </div>
+          </div>
+          <div className="project-names">
+            <span class="dot"></span> Weather APP<span class="dot"></span>
+          </div>
+          <div id="wrapper">
+            <div className="hero-image2">
+              <div className="button-wrapper">
+                <a
+                  target="_blank"
+                  href="https://github.com/RobLazCDMX/Hope-Hackathon
+                  "
+                >
+                  <button className="github1">Github</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project-names">
+            <span class="dot"></span> Covid API tracker<span class="dot"></span>
+          </div>
+          <div id="wrapper">
+            <div className="hero-image4">
+              <div className="button-wrapper">
+                <a
+                  target="_blank"
+                  href="https://github.com/mateoidc/studioghibli
+                  "
+                >
+                  <button className="github1">Github</button>
+                </a>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="project-names">
+            <span class="dot"></span> Movie Tracker
+            <span class="dot"></span>
           </div>
         </div>
       </div>
