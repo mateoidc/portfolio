@@ -26,7 +26,7 @@ class Skills extends React.Component {
             <div class="box">
               <img
                 class="img"
-                src="https://lh3.googleusercontent.com/proxy/UlOdjB3JzbdDTz2ydLtrI6mV96ydJX1mTMcVfzY3vgTb8VQfPmtT_PK9jTu3oZMh2GqBYhYHdOQXjzRgL5qlz17qA1CNX1zvPVSMNkrVKj9jt4LoaqLnusw"
+                src="https://blog.canadianwebhosting.com/wp-content/uploads/2018/04/javascript-logo.png"
                 alt="house"
               />
             </div>
