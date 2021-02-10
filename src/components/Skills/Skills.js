@@ -58,7 +58,7 @@ class Skills extends React.Component {
             <div class="box">
               <img
                 class="img"
-                src="https://miro.medium.com/max/2625/1*CGdYTKvYr_wvrsWbVVE2Hg.jpeg"
+                src="https://www.sferalabs.cc/wp-content/uploads/github-logo.png"
                 alt="house"
               />
             </div>
