@@ -1,73 +1,46 @@
-.skills-h4 {
-  text-align: center;
-  font-family: "Major Mono Display", monospace;
-  font-size: 50px;
-  color: black;
-  padding: 70px;
-}
-
-.skill-pics {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-  align-items: center;
-}
-
-.skill1 {
-  background-image: url("/src/assets/trio.png");
-  width: 400px;
-  height: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.skill2 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png");
+.img {
   width: 350px;
-  height: 250px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 270px;
+  border-radius: 40px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color: white;
 }
 
-.skill3 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png");
-  width: 300px;
-  height: 250px;
-  background-size: contain;
-  background-repeat: no-repeat;
+.container {
+  background: linear-gradient(
+      127deg,
+      rgba(251, 242, 242, 0.568),
+      #8a0611c3 95.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(238, 0, 254, 0.806),
+      rgba(16, 90, 209, 0.196) 80.71%
+    );
+  text-align: center;
+  padding: 20px;
+  border-radius: 40px;
 }
 
-.skill4 {
-  background-image: url("http://pngimg.com/uploads/github/github_PNG40.png");
-  height: 200px;
-  width: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
+.child {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.skill5 {
-  background-image: url("https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png");
-  height: 200px;
-  width: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  left: -5px;
+.box {
+  margin: 10px auto;
 }
 
-.skill6 {
-  background-image: url("https://pngimg.com/uploads/mysql/mysql_PNG1.png");
-  height: 200px;
-  width: 250px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  left: -5px;
-  margin: -30px;
+.skills {
+  font-size: 50px;
+  color: white;
+  font-family: "Major Mono Display", monospace;
+  margin: 30px;
 }
 
-.yes {
-  background-color: rgba(32, 31, 31, 0.046);
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 300px;
+    height: 200px;
+  }
 }
