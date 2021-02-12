@@ -44,3 +44,8 @@
     height: 200px;
   }
 }
+
+.skills {
+  color: rgba(0, 0, 0, 0.623);
+  font-size: 60px;
+}
