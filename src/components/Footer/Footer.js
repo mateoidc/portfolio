@@ -14,9 +14,23 @@ class NavBar extends React.Component {
           </strong>
         </h2>
         <ul>
-          <li>Email</li>
-          <li>Linkedin</li>
-          <li>Github</li>
+          <a className="alink" href="mailto: mateoidc@gmail.com">
+            <li>Email</li>
+          </a>
+          <a
+            className="alink"
+            target="_blank"
+            href="https://www.linkedin.com/in/mateoospina/"
+          >
+            <li>Linkedin</li>
+          </a>
+          <a
+            className="alink"
+            target="_blank"
+            href="https://github.com/mateoidc"
+          >
+            <li>GitHub</li>
+          </a>
         </ul>
       </div>
     );

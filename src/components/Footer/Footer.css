@@ -24,6 +24,15 @@ li {
   font-weight: bolder;
 }
 
+.alink {
+  text-decoration: none;
+  color: black;
+}
+
+.alink:hover {
+  color: #ff0a54;
+}
+
 @media only screen and (max-width: 600px) {
   .h2-footer {
     font-size: 50px;
