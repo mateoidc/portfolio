@@ -4,7 +4,7 @@ import "../Projects/Projects.css";
 class Projects extends React.Component {
   render() {
     return (
-      <div className="Projects">
+      <div id="projects" className="Projects">
         <h3 className="take-a-look">
           Take a <strong className="look">look</strong> at some of my work!
         </h3>

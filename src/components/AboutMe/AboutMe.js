@@ -4,7 +4,7 @@ import "../AboutMe/AboutMe.css";
 class AboutMe extends React.Component {
   render() {
     return (
-      <div className="h2-title">
+      <div id="aboutme" className="h2-title">
         <h2 className="h2"> About Me</h2>
         <div className="about-me">
           <div className="hero-image">

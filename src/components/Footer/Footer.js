@@ -4,7 +4,7 @@ import "../Footer/Footer.css";
 class NavBar extends React.Component {
   render() {
     return (
-      <div className="footer">
+      <div id="contact" className="footer">
         <h2 className="h2-footer">
           Let's connect<br></br> <strong>Digitally</strong>
           <br></br>{" "}
