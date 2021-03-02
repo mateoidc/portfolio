@@ -14,6 +14,7 @@ class Projects extends React.Component {
           <span class="dot"></span>
           <span class="dot"></span>
         </div>
+
         <div className="projects-container">
           <div id="wrapper">
             <div className="hero-image1">
@@ -33,6 +34,39 @@ class Projects extends React.Component {
           </div>
           <div className="project-names">
             <span class="dot"></span> Ecommerce APP<span class="dot"></span>
+          </div>
+          <div id="wrapper">
+            <div className="hero-image-semantic">
+              <div className="button-wrapper">
+                <a
+                  target="_blank"
+                  href="https://github.com/RobLazCDMX/Hope-Hackathon
+                  "
+                >
+                  <button className="github1">Github</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Plants Ecommerce */}
+          <div className="project-names">
+            <span class="dot"></span> Hackathon<span class="dot"></span>
+          </div>
+          <div id="wrapper">
+            <div className="hero-image-plants">
+              <div className="button-wrapper">
+                <a
+                  target="_blank"
+                  href="https://github.com/RobLazCDMX/Hope-Hackathon
+                  "
+                >
+                  <button className="github1">Github</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project-names">
+            <span class="dot"></span> Plants Ecommerce<span class="dot"></span>
           </div>
           <div id="wrapper">
             <div className="hero-image3">
